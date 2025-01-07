@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="" className="flex items-center">
-              <img src="/logo/2.png" className="h-12 me-3" alt="FlowBite Logo" />
+              <img src={`${process.env.PUBLIC_URL}/logo/2.png`} className="h-12 me-3" alt="FlowBite Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap"></span>
             </a>
           </div>

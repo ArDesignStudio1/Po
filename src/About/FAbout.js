@@ -79,7 +79,7 @@ const FAbout = () => {
 
         {/* Image Section */}
         <img
-          src="logo/1.png"
+          src={`${process.env.PUBLIC_URL}/logo/1.png`}
           className="hidden   sm:block absolute -left-10 top-8 h-[550px] w-auto"
           alt="3D Architectural Design"
         />
